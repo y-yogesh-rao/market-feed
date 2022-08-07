@@ -1,6 +1,6 @@
 global.server = new Hapi.server({
   host: process.env.NODE_HOST,
-  port: process.env.NODE_PORT,
+  port: process.env.PORT || 5000,
   routes: {
     cors: {
       origin: ['*'],
