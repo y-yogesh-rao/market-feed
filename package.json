@@ -1,0 +1,51 @@
+{
+  "name": "marketfeed",
+  "version": "1.0.0",
+  "description": "Task to get most popular repositories",
+  "main": "server.js",
+  "scripts": {
+    "test": "lab --leaks --timeout 30000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sqauds/backend-api.git"
+  },
+  "keywords": [
+    "marketfeed"
+  ],
+  "author": "yogesh",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@hapi/hapi": "^20.1.2",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.0.1",
+    "axios": "^0.25.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.7.7",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-auto-route": "^3.0.4",
+    "hapi-i18n": "^3.0.1",
+    "hapi-swagger": "^14.1.0",
+    "http": "^0.0.1-security",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mysql2": "^2.2.5",
+    "ngrok": "^4.1.0",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.5",
+    "@hapi/lab": "^24.6.0",
+    "chai": "^4.3.4"
+  }
+}
